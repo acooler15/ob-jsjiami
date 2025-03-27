@@ -515,7 +515,7 @@ var convertVar = (str) => {
 
 function main() {
 
-  let sourcePath = 'source/source.js';
+  let sourcePath = 'source/beautified.js';
   let crackName = 'dist/source-' + Date.now() + '.js';
 
   let template = fs.readFileSync(path.resolve(__dirname, sourcePath), 'utf-8').toString();
